@@ -1,0 +1,30 @@
+.priority-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.priority-priority {
+    background: var(--priority-high);
+    color: #fff;
+}
+
+.priority-to_review {
+    background: var(--priority-review);
+    color: var(--color-text); /* texte sombre : le blanc est peu lisible sur l'orange */
+}
+
+.priority-low {
+    background: var(--color-bg);
+    color: var(--priority-low);
+    border: 1px solid var(--color-border);
+}
+
+.priority-none {
+    background: var(--color-bg);
+    color: var(--color-text-muted);
+    border: 1px dashed var(--color-border);
+}

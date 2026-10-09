@@ -1,0 +1,41 @@
+.score-total {
+    margin: 0 0 16px;
+    font-size: 1.1rem;
+}
+
+.score-row {
+    margin-bottom: 14px;
+}
+
+.score-row-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.score-row-points {
+    font-weight: 600;
+}
+
+.score-bar {
+    height: 8px;
+    border-radius: 999px;
+    background: var(--color-bg);
+    overflow: hidden;
+}
+
+.score-bar-fill {
+    height: 100%;
+    background: var(--color-primary);
+    border-radius: 999px;
+}
+
+.score-warning {
+    margin: 16px 0 0;
+    padding: 10px 12px;
+    border-radius: var(--radius);
+    background: var(--color-accent-light);
+    color: var(--color-text);
+    font-size: 0.9rem;
+}

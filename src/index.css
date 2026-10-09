@@ -1,0 +1,43 @@
+:root {
+    /* ---------- Marque SKULLVI (estimées d'après le logo) ---------- */
+    --color-primary: #078a3e;        /* vert : actions principales */
+    --color-primary-dark: #056b30;   /* survol */
+    --color-primary-light: #e3f4ea;  /* fond léger */
+
+    --color-accent: #f29100;         /* orange : accents, badges */
+    --color-accent-light: #fff1d9;
+
+    --color-blue: #1565b5;           /* bleu : liens, informations */
+    --color-blue-light: #e1edf9;
+
+    --color-danger: #e04a1b;         /* rouge-orangé : erreurs, suppression */
+    --color-danger-dark: #b93914;
+    --color-danger-light: #fde9e3;
+
+    /* ---------- Neutres ---------- */
+    --color-text: #1f2933;
+    --color-text-muted: #667085;
+    --color-border: #d9dde3;
+    --color-bg: #f5f6f8;
+    --color-surface: #ffffff;
+
+    /* ---------- Niveaux de priorité (pour PriorityBadge) ---------- */
+    --priority-high: var(--color-primary);
+    --priority-review: var(--color-accent);
+    --priority-low: var(--color-text-muted);
+
+    /* ---------- Forme ---------- */
+    --radius: 8px;
+    --shadow: 0 1px 3px rgba(16, 24, 40, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+}

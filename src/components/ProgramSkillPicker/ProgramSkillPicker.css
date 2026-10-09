@@ -1,0 +1,50 @@
+.psp-group {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    margin: 0 0 16px;
+}
+
+.psp-group legend {
+    padding: 0 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+
+.psp-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 6px 8px;
+    border-radius: var(--radius);
+}
+
+.psp-row-active {
+    background: var(--color-primary-light);
+}
+
+.psp-check,
+.psp-required,
+.psp-weight {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.psp-options {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 0.85rem;
+}
+
+.psp-weight select {
+    padding: 3px 6px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-surface);
+    font: inherit;
+}

@@ -1,0 +1,68 @@
+.dashboard-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.dashboard-filters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+}
+
+.dashboard-filter-actions {
+    display: flex;
+    gap: 12px;
+}
+.dashboard-row {
+    cursor: pointer;
+}
+
+.dashboard-table-wrapper {
+    overflow-x: auto;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.dashboard-table th {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--color-border);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+}
+
+.dashboard-table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+}
+
+.dashboard-table tbody tr:hover {
+    background: var(--color-bg);
+}
+
+.dashboard-candidate {
+    font-weight: 600;
+}
+
+.dashboard-email {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+.dashboard-score {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .dashboard-filters {
+        grid-template-columns: 1fr 1fr;
+    }
+}

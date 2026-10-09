@@ -1,0 +1,68 @@
+.programs-page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.program-status {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.program-status-open {
+    background: var(--color-primary-light);
+    color: var(--color-primary-dark);
+}
+.program-status-draft {
+    background: var(--color-accent-light);
+    color: var(--color-text);
+}
+.program-status-closed {
+    background: var(--color-bg);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+}
+
+.program-description {
+    color: var(--color-text-muted);
+}
+
+.program-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 16px 0;
+}
+.program-meta dt {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+.program-meta dd {
+    margin: 2px 0 0;
+    font-weight: 600;
+}
+
+.program-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.program-skill {
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--color-border);
+    font-size: 0.85rem;
+}
+.program-skill-required {
+    background: var(--color-accent-light);
+    border-color: var(--color-accent);
+}
+
+.program-actions {
+    margin-top: 16px;
+}

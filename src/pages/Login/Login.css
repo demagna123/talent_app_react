@@ -1,0 +1,11 @@
+.login-page {
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 48px 16px;
+}
+
+.login-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
